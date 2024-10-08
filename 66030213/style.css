@@ -111,9 +111,9 @@ section{
 }
 
 .home .home-content h1{
-    font-size: 6rem;
-    font-weight: 700;
-    line-height: 1.3;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 20px;
 }
 
 span{
@@ -121,9 +121,9 @@ span{
 }
 
 .home-content h3{
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 15;
+    font-weight: 500;
 }
 
 .home-content p{
@@ -136,7 +136,7 @@ span{
 
 .home-img img{
     position: relative;
-    width: 26vw;
+    width: 22vw;
     border-radius: 6%;
     box-shadow: 0 0 25px solid #6495ED;
     cursor: pointer;
