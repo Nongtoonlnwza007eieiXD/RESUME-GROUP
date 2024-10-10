@@ -430,5 +430,184 @@ section .button button:hover{
     text-align: center;
     line-height: 50px;
     font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+    background-color: #fff;
+    color: #6495ED;
+}
+
+.education .boxes .box:hover .topic,
+.education .boxes .box:hover p{
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.education .boxes .box:hover .topic,
+.education .boxes .box:hover{
+    color: #fff;
+}
+
+/* Contact Me */
+.contact{
+    background: #1c2833;
+}
+.contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.contact .text p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+footer{
+    background: #6495ED;
+    padding: 15px 0 ;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .text span a{
+    font-weight: 500;
+    color: #FFF;
+}
+footer .text span a:hover{
+    text-decoration: underline;
+}
+
+.scroll-button a{
+    position: fixed;
+    bottom: 20px;
+    right: 29px;
+    color: #fff;
+    background: #6495ED;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+
+@media (max-width: 1000px){
+    .about .about-details{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about .about-details .left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .about-details .right{
+        width: 90%;
+        margin:  40px 0;
+    }
+    .about .boxes .box{
+        margin: 20px 0;
+        width: calc(100%/2 - 20px);
+    }
+}
+
+@media (max-width: 900px){
+    .about .left img{
+        height: 350px;
+        width: 400px;
+    }
+}
+
+@media (max-width:968px){
+
+    nav .logo{
+        position: absolute;
+        top:16px;
+        left: 15px;
+        font-size: 1.5rem;
+    }
     
+    section .main-container{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-container .links{
+        display: none;
+    }
+    .hamburg,
+    .cancel{
+        opacity: 1;
+        pointer-events: visible;
+    }
+
+    .main-container .contact{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .social-links i{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .main-container .image{
+        z-index: -1;
+        width: 50%;
+        height: 60%;
+    }
+    .skills .skills-details{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .skills-details .text{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .skills-details .boxes{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .education .boxes .box{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .contact .text{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width:500px){
+    .main-container .image{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 0px;
+    }
+    .main-container .content{
+        width: 80%;
+    }
+    .main-container button{
+        margin-top: 15px;
+    }
+    .skills-details .boxes .per{
+        font-size: 50px;
+        color: #6495ED;
+    }
 }
